@@ -1,0 +1,94 @@
+.App {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    flex-direction: column;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.TitleSection {
+    background-color: rgb(64, 161, 252);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(219, 2, 2);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: blue;
+}
+.TitleSection input {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.TitleSection button {
+    width: 235px;
+    height: 60px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 24px;
+    padding-left: 10px;
+    background-color: crimson;
+    border: none;
+    color: white;
+}
+.TitleSection button:hover {
+    cursor: pointer;
+}
+
+.DisplaySection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 21, 158);
+}
+
+.Pagination {
+    display: flex;
+    justify-content: center;
+    background-color: darkcyan;
+    padding: 10px;
+}
+
+.Pagination button {
+    display: flex;
+    background-color: crimson;
+    font-size: large;
+}
+
+h1 {
+    color: white;
+    background-color: rgb(40, 0, 0);
+    border-radius: 10px;
+}
+
+.PokemonList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 20px;
+
+}
+
+.PokemonDetails {
+    margin-right: 20px;
+    justify-content: center;
+}
+
+.PokemonImage {
+display: flex;
+justify-content: center;
+}
+
+.pokePic {
+width: 250px;
+
+}
